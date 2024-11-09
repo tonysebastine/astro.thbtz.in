@@ -6,7 +6,7 @@ import UnoCSS from "@unocss/astro";
 import icon from "astro-icon";
 
 import solidJs from "@astrojs/solid-js";
-import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
+import { remarkReadingTime } from "./src/lib/remark-reading-time.mjs";
 
 import svelte from "@astrojs/svelte";
 
@@ -17,8 +17,8 @@ export default defineConfig({
     sitemap(),
     robotsTxt({
       sitemap: [
-        "https://gianmarco.xyz/sitemap-index.xml",
-        "https://gianmarco.xyz/sitemap-0.xml",
+        "https://astro.thbz.in/sitemap-index.xml",
+        "https://astro.thbz.in/sitemap-0.xml",
       ],
     }),
     solidJs(),
